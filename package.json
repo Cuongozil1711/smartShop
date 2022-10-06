@@ -1,13 +1,15 @@
 {
     "name": "doan-2022",
     "version": "7.0.3-SNAPSHOT",
-    "homepage": ".",
     "private": false,
+    "homepage": "https://cuongozil1711.github.io/smartShop/",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "repository": {
         "type": "git",
